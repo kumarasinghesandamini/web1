@@ -1,0 +1,84 @@
+@charset "utf-8";
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(0, 0, 0);
+        }
+        .container{
+            background-color: rgb(153, 146, 146);
+            height: 1000px;
+            width: 700px;
+            margin: 0 auto;
+            border-left: 5px solid #327b08;
+            border-right: 5px solid #327b08;
+        }
+        header{
+            background-image: url(sample/Step27/bb.jpg);
+            height: 300px;
+            background-size: 700px;
+        }
+        h1{
+            color: #ead818;
+            padding-top: 135px;
+            padding-left: 15px;
+
+        }
+        nav ul{
+            display: flex;
+            list-style-type: none;
+            background-image: url(sample/Step27/engin-akyurt-HEMIBJ8QQuA-unsplash.jpg);
+        }
+        nav a{
+            display: block;
+            width: 140px;
+            color: rgb(213, 205, 205);
+            padding: 10px 0;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        nav a:hover{
+            background-color: black;
+        }
+        main{
+            padding: 30px;
+            height: 500px;
+        }
+        h2{
+            background-color: #0c650c;
+            color: rgb(232, 217, 217);
+            box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.5);
+            padding: 4px 8px;
+            margin-top: 35px;
+            font-size: 16px;
+            font-family: sans-serif;
+        }
+        .link h2{
+            margin-top: 10px;
+        }
+        main p{
+            padding-top: 30px;
+        }
+        footer{
+            background-color: black;
+            padding: 10px;
+            font: 12px sans-serif;
+            text-align: right;
+            color: #f3ecec;
+            font-family: 'ＭＳ明朝';
+        }
+        .toppage{
+            text-align: right;    
+            margin-top: 25px;
+        }
+        .toppage a{
+            color: white;
+            text-decoration: none;
+            background-color: rgb(94, 151, 97);
+            border-radius: 5px;
+            padding: 8px 10px;
+            font-size: 12px;
+        }
